@@ -18,6 +18,22 @@
     0px 0px 0px 1px rgba(0, 0, 0, 0.15);
 }
 
+.post-stream .topic-post .row:has(.post-notice) {
+  background: transparent;
+  padding: 0;
+  box-shadow: 0 0 0 transparent;
+}
+
+.small-action {
+  padding: 8px 0;
+}
+
+.small-action.topic-post-visited
+  .topic-post-visited-line
+  .topic-post-visited-message {
+  background: #f9fafb;
+}
+
 .list-controls .nav-pills > li {
   background: #fff;
   border-radius: 4px;
