@@ -183,10 +183,6 @@ tbody {
     0px 0px 0px 4px #30f2a2;
 }
 
-.topic-list .topic-list-data:first-of-type {
-  padding-left: 16px;
-}
-
 .topic-list .topic-list-data {
   padding: 8px;
 }
@@ -202,10 +198,6 @@ tr {
 
 .topic-list-item.visited {
   background: var(--navy-50);
-}
-
-.topic-list .topic-list-data:last-of-type {
-  padding-right: 16px;
 }
 
 .topic-list-main-link a.title,
@@ -337,18 +329,6 @@ section.tag-info {
 .topic-avatar,
 .topic-body {
   border-top: 0 none;
-}
-
-#navigation-bar {
-  background: #fff;
-  border-radius: 4px;
-  padding: 2px;
-  box-shadow:
-    0px 4px 4px 0px rgba(0, 0, 0, 0.01),
-    0px 3px 3px 0px rgba(0, 0, 0, 0.02),
-    0px 2px 2px 0px rgba(0, 0, 0, 0.04),
-    0px 1px 0px 0px rgba(0, 0, 0, 0.09),
-    0px 0px 0px 1px rgba(0, 0, 0, 0.09);
 }
 
 .nav-pills > li {

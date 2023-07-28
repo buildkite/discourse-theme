@@ -14,6 +14,18 @@ body .d-header .wrap,
   }
 }
 
+#navigation-bar {
+  background: #fff;
+  border-radius: 4px;
+  padding: 2px;
+  box-shadow:
+    0px 4px 4px 0px rgba(0, 0, 0, 0.01),
+    0px 3px 3px 0px rgba(0, 0, 0, 0.02),
+    0px 2px 2px 0px rgba(0, 0, 0, 0.04),
+    0px 1px 0px 0px rgba(0, 0, 0, 0.09),
+    0px 0px 0px 1px rgba(0, 0, 0, 0.09);
+}
+
 .has-sidebar-page #main-outlet-wrapper #main-outlet {
   @media (min-width: 768px) {
     width: calc(96vw - var(--d-sidebar-width));
@@ -334,4 +346,12 @@ div.poll {
 .badge-wrapper.box span.badge-category-bg,
 .badge-wrapper.box span.badge-category-parent-bg {
   border-radius: 4px;
+}
+
+.topic-list .topic-list-data:first-of-type {
+  padding-left: 16px;
+}
+
+.topic-list .topic-list-data:last-of-type {
+  padding-right: 16px;
 }
