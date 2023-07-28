@@ -1,0 +1,25 @@
+.post-stream .topic-post .row {
+  background: #fff;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow:
+    0px 4px 4px 0px rgba(0, 0, 0, 0.01),
+    0px 3px 3px 0px rgba(0, 0, 0, 0.02),
+    0px 2px 2px 0px rgba(0, 0, 0, 0.04),
+    0px 1px 0px 0px rgba(0, 0, 0, 0.09),
+    0px 0px 0px 1px rgba(0, 0, 0, 0.15);
+}
+
+.topic-body {
+  width: auto;
+  flex: 1;
+}
+
+.boxed .contents {
+  padding-top: 24px;
+}
+
+.topic-post article {
+  border-top: 0 none;
+  padding: 4px 0;
+}
