@@ -310,14 +310,28 @@ div.poll {
 .post-menu-area {
   nav.post-controls .actions {
     border-radius: 4px;
-    background: #fff;
+    overflow: hidden;
     box-shadow:
-      0px 4px 4px 0px rgba(0, 0, 0, 0.01),
-      0px 3px 3px 0px rgba(0, 0, 0, 0.02),
-      0px 2px 2px 0px rgba(0, 0, 0, 0.04),
-      0px 1px 0px 0px rgba(0, 0, 0, 0.09),
-      0px 0px 0px 1px rgba(0, 0, 0, 0.09);
+      0px 4px 4px 0px rgba(0, 0, 0, 0),
+      0px 3px 3px 0px rgba(0, 0, 0, 0),
+      0px 2px 2px 0px rgba(0, 0, 0, 0),
+      0px 1px 0px 0px rgba(0, 0, 0, 0),
+      0px 0px 0px 1px rgba(0, 0, 0, 0);
+    transition: 0.2s ease box-shadow;
+    &:hover {
+      background: #fff;
+      box-shadow:
+        0px 4px 4px 0px rgba(0, 0, 0, 0.01),
+        0px 3px 3px 0px rgba(0, 0, 0, 0.02),
+        0px 2px 2px 0px rgba(0, 0, 0, 0.04),
+        0px 1px 0px 0px rgba(0, 0, 0, 0.09),
+        0px 0px 0px 1px rgba(0, 0, 0, 0.09);
+    }
     button {
+      margin-left: 0;
+      font-size: 14px;
+    }
+    .double-button {
       margin-left: 0;
     }
   }

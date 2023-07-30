@@ -231,7 +231,11 @@ tr {
   border-radius: 8px;
 }
 
-.btn:not(.btn-flat):not(.widget-button):not(.btn-icon):not(.tab) {
+.btn:not(.btn-flat):not(.widget-button):not(.btn-icon):not(.tab),
+.topic-admin-menu-button .btn,
+.timeline-footer-controls .topic-notifications-button,
+.timeline-footer-controls .notifications-button,
+.dropdown-select-box .btn {
   background: #fff;
   box-shadow:
     0px 4px 4px 0px rgba(0, 0, 0, 0.01),
@@ -241,12 +245,14 @@ tr {
     0px 0px 0px 1px rgba(0, 0, 0, 0.09);
   border-radius: 4px;
   color: var(--navy-600);
+  font-weight: 400;
   .d-icon {
     color: var(--navy-600);
   }
 
   &:hover {
     color: var(--navy-900);
+    background: #fff;
     .d-icon {
       color: var(--navy-900);
     }
@@ -256,6 +262,18 @@ tr {
 .select-kit.dropdown-select-box.period-chooser .period-chooser-header {
   padding: 0 8px 0;
   margin-bottom: 16px;
+}
+
+.select-kit.single-select.dropdown-select-box.is-expanded
+  .select-kit-collection,
+.select-kit.single-select.dropdown-select-box.is-expanded .select-kit-body {
+  border-radius: 4px;
+  border: 0 none;
+  box-shadow:
+    0px 7px 9px 0px rgba(0, 0, 0, 0.03),
+    0px 13px 18px 0px rgba(0, 0, 0, 0.04),
+    0px 20px 20px 0px rgba(0, 0, 0, 0.07),
+    0px 0px 0px 1px rgba(0, 0, 0, 0.1);
 }
 
 .btn-primary {
