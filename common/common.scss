@@ -74,7 +74,8 @@
 .navigation-topics,
 .tags-page,
 .archetype-regular,
-.category {
+.category,
+.navigation-categories {
   #main-outlet-wrapper {
     background: #f9fafb;
     position: relative;
@@ -211,6 +212,7 @@ tr {
 }
 
 .topic-list-item.status-solved {
+  background: #f8fdf9;
 }
 
 .topic-list-main-link a.title,
