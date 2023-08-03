@@ -173,10 +173,10 @@ tbody {
     aside.quote.accepted-answer {
       --primary-high-or-secondary-low: var(--green-600);
       --primary-low-mid-or-secondary-high: var(--green-500);
-      aside.quote .title,
+      .title,
       blockquote {
         background: var(--green-50);
-        border-color: var(--green-300);
+        border-color: #61dba7;
       }
     }
   }
@@ -211,7 +211,6 @@ tr {
 }
 
 .topic-list-item.status-solved {
-  background: var(--green-50);
 }
 
 .topic-list-main-link a.title,
