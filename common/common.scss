@@ -170,6 +170,15 @@ tbody {
       background: var(--navy-100);
       color: var(--purple2-600);
     }
+    aside.quote.accepted-answer {
+      --primary-high-or-secondary-low: var(--green-600);
+      --primary-low-mid-or-secondary-high: var(--green-500);
+      aside.quote .title,
+      blockquote {
+        background: var(--green-50);
+        border-color: var(--green-300);
+      }
+    }
   }
 }
 
@@ -200,6 +209,10 @@ tr {
   background: var(--navy-50);
 }
 
+.topic-list-item.status-solved {
+  background: var(--green-50);
+}
+
 .topic-list-main-link a.title,
 .latest-topic-list-item .main-link a.title,
 .topic-list .main-link a.title {
@@ -212,6 +225,15 @@ tr {
 .category-topic-link.visited a.title:not(.badge-notification) {
   color: var(--navy-400);
   font-weight: 400;
+}
+
+.topic-list-item.status-solved
+  .topic-list-data
+  a.title:not(.badge-notification),
+.latest-topic-list-item.status-solved a.title:not(.badge-notification),
+.category-topic-link.status-solved a.title:not(.badge-notification) {
+  color: var(--green-700);
+  font-weight: 600;
 }
 
 .list-controls .combo-box .combo-box-header {
@@ -234,8 +256,8 @@ tr {
 .btn:not(.btn-flat):not(.widget-button):not(.btn-icon):not(.tab),
 .topic-admin-menu-button .btn,
 .timeline-footer-controls .reply-to-post,
-.timeline-footer-controls .notifications-button,
-.dropdown-select-box .btn {
+.dropdown-select-box .btn,
+.select-kit .select-kit-header {
   background: #fff;
   box-shadow:
     0px 4px 4px 0px rgba(0, 0, 0, 0.01),
@@ -243,7 +265,8 @@ tr {
     0px 2px 2px 0px rgba(0, 0, 0, 0.04),
     0px 1px 0px 0px rgba(0, 0, 0, 0.09),
     0px 0px 0px 1px rgba(0, 0, 0, 0.09);
-  border-radius: 4px;
+  border-radius: 4px !important;
+  border: 0 none !important;
   color: var(--navy-600);
   font-weight: 400;
   .d-icon {
@@ -433,4 +456,20 @@ section.tag-info {
     0px 1px 0px 0px rgba(0, 0, 0, 0.09),
     0px 0px 0px 1px rgba(0, 0, 0, 0.09);
   border-radius: 4px;
+}
+
+.d-header .login-button,
+.d-header .sign-up-button {
+  border-radius: 3px;
+}
+
+#topic-footer-buttons {
+  max-width: none;
+  .btn-primary.pull-right {
+    float: none;
+  }
+}
+
+.signup-cta {
+  border-radius: 8px;
 }
