@@ -182,7 +182,8 @@ tbody {
   }
 }
 
-.topic-body:has(button.widget-button.accepted) {
+.topic-body:has(button.widget-button.accepted),
+.topic-body:has(.accepted-label) {
   box-shadow:
     0px 4px 4px 0px rgba(0, 0, 0, 0.01),
     0px 3px 3px 0px rgba(0, 0, 0, 0.02),
@@ -396,6 +397,11 @@ section.tag-info {
 
 .d-header #site-logo {
   height: 24px;
+}
+
+.post-controls .extra-buttons .accepted-text .d-icon,
+.post-controls .extra-buttons .accepted-text .accepted-label {
+  font-size: 14px;
 }
 
 .vote-count-wrapper {
