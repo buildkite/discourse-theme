@@ -61,6 +61,10 @@
   text-rendering: optimizeLegibility !important;
 }
 
+.d-header .title {
+  --d-logo-height: 24px;
+}
+
 .wrap {
   padding-inline: 8px;
 }
@@ -394,10 +398,6 @@ section.tag-info {
 .nav-pills > li button.active {
   color: #4b19d5;
   background: #f1efff;
-}
-
-.d-header #site-logo {
-  height: 24px;
 }
 
 .post-controls .extra-buttons .accepted-text .d-icon,
