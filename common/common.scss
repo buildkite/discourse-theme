@@ -65,6 +65,10 @@
   --d-logo-height: 24px;
 }
 
+.d-header #site-logo {
+  max-height: var(--d-logo-height);
+}
+
 .wrap {
   padding-inline: 8px;
 }
