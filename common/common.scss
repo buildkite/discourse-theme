@@ -191,17 +191,6 @@ tbody {
   }
 }
 
-.topic-body:has(button.widget-button.accepted),
-.topic-body:has(.accepted-label) {
-  box-shadow:
-    0px 4px 4px 0px rgba(0, 0, 0, 0.01),
-    0px 3px 3px 0px rgba(0, 0, 0, 0.02),
-    0px 2px 2px 0px rgba(0, 0, 0, 0.04),
-    0px 1px 0px 0px rgba(0, 0, 0, 0.09),
-    0px 0px 0px 1px rgba(0, 0, 0, 0.15),
-    0px 0px 0px 4px #30f2a2;
-}
-
 .topic-list .topic-list-data {
   padding: 8px;
 }
@@ -487,7 +476,4 @@ section.tag-info {
 
 .more-topics__container {
   max-width: none;
-  .topic-list .topic-list-data:first-of-type {
-    padding-left: 16px;
-  }
 }
