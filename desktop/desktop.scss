@@ -276,6 +276,26 @@ aside.onebox {
   }
 }
 
+.small-action.onscreen-post {
+  border-top: 1px solid var(--primary-low);
+  .topic-avatar,
+  .small-action-desc {
+    border-top: 0 none;
+    padding-inline: 0;
+  }
+  .small-action-desc {
+    width: auto;
+    flex: 1;
+  }
+  @media (min-width: 768px) {
+    gap: 24px;
+    .topic-avatar {
+      width: 80px;
+    }
+  }
+}
+
+
 .small-action.topic-post-visited .topic-post-visited-line {
   width: 100%;
 }
